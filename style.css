@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+width: 80%;
+margin: 50px auto;
+}
+
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: #f63232;
+    font-size: 16px;
+}
+main{
+    width: 98%;
+    margin-left: 1%;
+    height: 100vh;
+    background-color: black;
+    border-radius: 20px;
+}
+nav{
+     height:50px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    margin-left: 65px;
+}
+form{
+    position: relative;
+    margin-top: 30px;
+    margin-left: -35rem
+}
+input{
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    outline: none;
+    border: 0px;
+}
+.fa-magnifying-glass{
+     color: #f63232;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 8px;
+    opacity: .8;
+
+
+
+}
+input::placeholder{
+    padding-left: 20px;
+} 
+
+.fa-video{
+    
+    width: 80px;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    opacity: .9;
+    padding-right: 25px;
+} 
+.nav-links{
+    margin-top: 15px;
+    margin-right: 30px;
+} 
+.nav-list{
+    display: flex;
+    
+}
+li{
+list-style-type:none ;
+margin-right: 40px;
+margin-top: 10px;
+}
+.fa-user{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.fa-arrow-up-from-bracket{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.btn{
+    background-color: #f63232;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+}
+.img-container{
+    width: 96%;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 30px;
+    margin-left: 25px;
+
+}
+.img-list{ 
+    width: 250px;
+    height: 300px;
+
+}
+.hero-image{
+    margin-top: 30px;
+     width:80.59vw; 
+     height: 40vh;
+    
+}
+.sect{
+    display: flex;
+    
+}
+.right-sect{
+    flex-basis: 80%;
+}
+.left-sect{
+    border-right: 1px solid white;
+    position: relative;
+    margin-top: 30px;
+    height: 90vh;
+     background-color: rgb(0, 0, 0);
+     border-bottom-left-radius: 20px;
+    flex-basis: 20%;
+}
+
+footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+p{
+    text-align: center;
+    color: white;
+    padding-top: 18px;
+}
+
+
+.home-btn{
+    background-color: #f63232;
+    border-radius: 20px;
+    margin-left: 65px;
+    padding: 10px 20px;
+}
+.home{
+    width:100px ;
+    margin-top: 40px;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    
+}
+.fa-house{
+    color: white;
+    
+}
+.trending{
+    display: flex;
+    margin-left: 66px;
+    padding: 4px 20px; 
+     margin-top: 7px; 
+
+}
+.fa-newspaper{
+    margin-top: 18px;
+    margin-right: 10px;
+    color: #f63232;
+
+}
+
+.subcriptions{
+    display: flex;
+    margin-left: 66px;
+    padding: 10px 20px;
+
+}
+.fa-play{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+
+}
+hr{
+    opacity: .4;
+
+}
+
+.copyright{
+    margin-top: 20px;
+    font-size: 12px;
+    opacity: .8;
+}
+.fa-bag-shopping{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+
+}
+.fa-clock{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+
+}
+.fa-music{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+
+}
+.fa-volleyball{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+
+}
+.fa-dice{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+}
+.fa-radio{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+}
+.fa-cloud{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+}
+.fa-gear{
+    margin-top: 19px;
+    margin-right: 10px;
+    color: #f63232;
+}
+.youtube-copy{
+    color: #f63232;
+}
+footer p{
+    font-size: 12px;
+    opacity: .8;
+    letter-spacing: 1px;
+}
+.scroll{
+    background-color: #f63232;
+    width: 5px;
+    height: 150px;
+    position: absolute;
+     top: 40%;
+     border-radius: 20px;
+     left: 273px;
+}
